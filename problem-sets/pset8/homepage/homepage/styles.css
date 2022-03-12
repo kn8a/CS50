@@ -1,0 +1,115 @@
+body {
+    background-color: rgb(34, 34, 34);
+    display: inline;
+}
+
+
+
+.bodytext {
+    color:darkred; 
+    text-align: center; 
+    padding-top: 2%;
+    font-style: normal;
+    font-weight: lighter;
+}
+
+.mainheading {
+    color:rgb(80, 80, 255);
+    text-shadow: rgb(19, 19, 19);
+    padding-bottom: 5%;
+    padding-top: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    align-self: center;
+    text-align: center;
+}
+
+.style1 {
+    color: deepskyblue;
+    font-family: cursive;
+    font-weight: bolder;
+    border-color: dodgerblue;
+    border-width: 2px;
+    text-align: center;
+}
+
+.style2 {
+    background-color: firebrick;
+    color: white;
+    border-radius: 1%;
+    border-color: tomato;
+    border-width: 3px;
+    border-style: groove;
+    text-align: center;
+}
+
+.style3 {
+    font-family: 'Courier New', Courier, monospace;
+    filter: blur(2);
+    border-left-color: tomato;
+    border-left-width: 2px;
+    border-right-color: turquoise;
+    padding-right: 10%;
+    padding-left: 10%;
+    border-right-width: 2px;
+    border-top-color: violet;
+    border-bottom-color: cyan;
+    border-width: 2px;
+    text-align: center;
+    color:magenta;
+}
+
+.list1 {
+    text-align: center;
+    align-self: center;
+    list-style: circle;
+    align-content: center;
+    list-style-position: inside;
+    color: white;
+}
+
+.night-vision-effect {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Point_Reyes_Lighthouse_%28April_2012%29.jpg/593px-Point_Reyes_Lighthouse_%28April_2012%29.jpg), radial-gradient(#0F0, #000), repeating-linear-gradient(transparent 0, rgba(0, 0, 0, 0.1) 2.5px, transparent 5px);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+  }
+  
+  [class$=-effect] img {
+    vertical-align: top !important;
+    margin: 0 !important;
+    opacity: 0 !important;
+  }
+
+  .selective-color-effect {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Point_Reyes_Lighthouse_%28April_2012%29.jpg/593px-Point_Reyes_Lighthouse_%28April_2012%29.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  @supports (filter: brightness(3)) and (mix-blend-mode: color) {
+    .selective-color-effect {
+      position: relative;
+    }
+    .selective-color-effect:before, .selective-color-effect:after {
+      display: block;
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: inherit;
+      background-color: red;
+      background-blend-mode: screen;
+      mix-blend-mode: color;
+      filter: brightness(3);
+    }
+  }
+  
+  [class$=-effect] img {
+      vertical-align: top !important;
+      margin: 0 !important;
+      opacity: 0 !important;
+  }
+  

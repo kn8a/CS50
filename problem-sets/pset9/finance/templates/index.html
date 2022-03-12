@@ -1,0 +1,47 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">Stock</th>
+      <th scope="col">Name</th>
+      <th scope="col">Shares</th>
+      <th scope="col">Price</th>
+      <th scope="col">Total</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for holding in holdings %}
+    <tr>
+      <td>{{holding.stock}}</td>
+      <td>{{holding.name}}</td>
+      <td>{{holding.shares}}</td>
+      <td>{{holding.price}}</td>
+      <td>{{holding.totalusd}}</td>
+    </tr>
+    {% endfor %}
+    <tr class="table-secondary">
+      <td>Cash</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>{{cash}}</td>
+    </tr>
+
+  </tbody>
+  <tfoot>
+        <tr>
+          <td colspan="4"></td>
+          <td class="table-success rounded-bottom"><h5>{{total}}</h5></td>
+        </tr>
+      </tfoot>
+
+</table>
+
+{% endblock %}
