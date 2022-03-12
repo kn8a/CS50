@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: skipped through a sorted file fairly quickly but took really long time with unsorted files.
+
+sort2 uses: merge sort
+
+How do you know?: fastest sorting in all scenarious, and sorting time didnt increase as much as other typed when increasing the file size.
+
+sort3 uses: selection sort
+
+How do you know?: whether sorted/unsorted or random, the time to sort is approximately the same.
