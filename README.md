@@ -11,6 +11,12 @@ Introduction to Computer Science from Harvard
   <img alt="Flask" src="https://user-images.githubusercontent.com/88045655/158039719-ae2e46bc-ab7d-4815-b224-8a2e759f46a9.svg" height="64px" />
 </p>
 
+- A broad and robust understanding of computer science and programming.
+- How to think algorithmically and solve programming problems efficiently.
+- Concepts like abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development.
+- Familiarity in a number of languages, including C, Python, SQL, and JavaScript plus CSS and HTML.
+- How to engage with a vibrant community of like-minded learners from all levels of experience.
+- How to develop and present a final programming project.
 
 
 
