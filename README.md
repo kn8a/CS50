@@ -12,7 +12,7 @@ Introduction to Computer Science from Harvard
   <img alt="Flask" src="https://user-images.githubusercontent.com/88045655/158039719-ae2e46bc-ab7d-4815-b224-8a2e759f46a9.svg" height="64px" />
 </p>
 
-### 12 week couerse covering:
+### 12 week course covering:
 - A broad and robust understanding of computer science and programming.
 - How to think algorithmically and solve programming problems efficiently.
 - Concepts like abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development.
