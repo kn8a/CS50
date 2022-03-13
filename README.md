@@ -4,6 +4,7 @@ Introduction to Computer Science from Harvard
 <p float="left">
   <img alt="C" src="https://user-images.githubusercontent.com/88045655/158039059-dc78059b-1543-4c88-b7ef-709e91791e4d.svg" height="64px" />
   <img alt="Python" src="https://user-images.githubusercontent.com/88045655/158039267-85991504-668d-4959-9638-58891c94cd70.svg" height="64px" />
+  <img alt="Sqlite" src="https://user-images.githubusercontent.com/88045655/158040119-3ec42f6f-6b97-4d0e-93e6-d0d21609a231.svg" height="64px" />
   <img alt="HTML" src="https://user-images.githubusercontent.com/88045655/158039238-a27f719d-5e49-4b49-b8f3-2a389190af9a.svg" height="64px" />
   <img alt="CSS" src="https://user-images.githubusercontent.com/88045655/158039214-f3a66aa3-dd05-46d0-8f91-ab64f13c7c00.svg" height="64px" /> 
   <img alt="JavaScript" src="https://user-images.githubusercontent.com/88045655/158040006-5841d433-c58b-4486-93df-cc0c6aa4cb06.svg" height="64px" />
