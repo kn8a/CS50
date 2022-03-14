@@ -1,5 +1,5 @@
 # CS50
-Introduction to Computer Science from Harvard
+A repo of my solutions to CS50 - Introduction to Computer Science from Harvard
 
 <p float="left">
   <img alt="C" src="https://user-images.githubusercontent.com/88045655/158039059-dc78059b-1543-4c88-b7ef-709e91791e4d.svg" height="64px" />
