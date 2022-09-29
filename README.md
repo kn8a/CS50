@@ -20,6 +20,6 @@ A repo of my solutions to CS50 - Introduction to Computer Science from Harvard
 - How to engage with a vibrant community of like-minded learners from all levels of experience.
 - How to develop and present a final programming project.
 
-
+Certificate of completion: https://cs50.harvard.edu/certificates/f545702b-cf13-4c81-b8e6-b971850b6015
 
 
